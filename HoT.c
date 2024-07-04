@@ -3,6 +3,12 @@
 
 int main(){
 
+    printf("Who are you?\n");
+
+    char name[100];
+    scanf("%s", name);
+    printf("Hello,%s!\n", name);
+
     printf("Tossing a coin...\n");
 
     int H = 0, T = 0;
